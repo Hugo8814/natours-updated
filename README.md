@@ -1,13 +1,6 @@
 <a id="readme-top"></a>
 
-<div align="center">
 
-[![Contributors][contributors-icon]][contributors-link]
-[![Forks][forks-icon]][forks-link]
-[![Stargazers][stars-icon]][stars-link]
-
-
-</div>
 
 <!-- PROJECT LOGO -->
 <br />
