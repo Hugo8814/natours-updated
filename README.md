@@ -15,7 +15,7 @@
     learning project
     <br />
     <br />
-    <a href="https://hugo8814.github.io/natours/" target="_blank">View Demo</a>
+    <a href="https://hugo8814.github.io/natours-updated/" target="_blank">View Demo</a>
   </p>
 </div>
 
@@ -45,9 +45,9 @@
 
 ## Contact
 
-Email: [DevTruce@Gmail.com]()
+Email: [hugopereira8814@gmail.com]()
 
-Discord: [xzypher.]()
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,15 +56,10 @@ Discord: [xzypher.]()
 <!-- ## GitHub ##-->
 <!-- links -->
 
-[contributors-link]: https://github.com/DevTruce/natours/graphs/contributors
-[forks-link]: https://github.com/DevTruce/natours/network/members
-[stars-link]: https://github.com/DevTruce/natours/stargazers
 
 <!-- icons -->
 
-[contributors-icon]: https://img.shields.io/github/contributors/DevTruce/natours.svg?style=for-the-badge
-[forks-icon]: https://img.shields.io/github/forks/DevTruce/natours.svg?style=for-the-badge
-[stars-icon]: https://img.shields.io/github/stars/DevTruce/natours.svg?style=for-the-badge
+
 
 <!-- ## Project ## -->
 
@@ -76,7 +71,7 @@ Discord: [xzypher.]()
 [product-screenshot--6]: src/imgs/imgs-readme/6.png
 [product-screenshot--7]: src/imgs/imgs-readme/7.png
 [product-screenshot--8]: src/imgs/imgs-readme/8.png
-[product-link]: https://devtruce.github.io/natours/
+
 
 <!-- ## Tech & Tools ## -->
 <!-- links -->
