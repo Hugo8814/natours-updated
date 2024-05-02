@@ -15,7 +15,7 @@
     learning project
     <br />
     <br />
-    <a href="https://devtruce.github.io/natours/" target="_blank">View Demo</a>
+    <a href="https://hugo8814.github.io/natours/" target="_blank">View Demo</a>
   </p>
 </div>
 
