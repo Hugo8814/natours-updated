@@ -1,16 +1,38 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "",
+  "description": "Natours landing page",
   "main": "index.js",
   "scripts": {
-     "compile:sass": "node-sass sass/main.scss C:/Users/hugol/OneDrive/Desktop/Natours/style.css -w"
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "watch:sass": "node-sass src/sass/main.scss src/css/styles.css -w",
+    "compile:sass": "node-sass src/sass/main.scss src/css/styles.comp.css",
+    "concat:css": "concat -o src/css/styles.concat.css src/css/icon-font.css src/css/styles.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/styles.concat.css -o src/css/styles.prefix.css",
+    "compress:css": "node-sass src/css/styles.prefix.css src/css/styles.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
-  
-  
-  "author": "hugo",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevTruce/natours.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss"
+  ],
+  "author": "Truce R",
+  "license": "MIT",
   "devDependencies": {
-    "node-sass": "^8.0.0"
-  }
+    "autoprefixer": "^10.4.14",
+    "concat": "^1.0.3",
+    "node-sass": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/DevTruce/natours/issues"
+  },
+  "homepage": "https://github.com/DevTruce/natours#readme"
 }
